@@ -1,4 +1,4 @@
-package com.example.handlers;
+package com.naufalhisyam.handlers;
 
 import ratpack.core.handling.Context;
 import ratpack.core.handling.Handler;

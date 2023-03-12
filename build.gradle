@@ -25,4 +25,4 @@ test {
     useJUnitPlatform()
 }
 
-mainClassName = "com.example.Main"
+mainClassName = "com.naufalhisyam.Main"

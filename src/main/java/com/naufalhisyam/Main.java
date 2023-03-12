@@ -1,8 +1,8 @@
-package com.example;
+package com.naufalhisyam;
 
-import com.example.handlers.NoteByIdHandler;
-import com.example.handlers.NoteHandler;
-import com.example.handlers.CORSHandler;
+import com.naufalhisyam.handlers.NoteByIdHandler;
+import com.naufalhisyam.handlers.NoteHandler;
+import com.naufalhisyam.handlers.CORSHandler;
 import ratpack.core.server.RatpackServer;
 import ratpack.guice.Guice;
 

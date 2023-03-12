@@ -1,7 +1,7 @@
-package com.example.services;
+package com.naufalhisyam.services;
 
-import com.example.model.DefaultNoteDAO;
-import com.example.model.Note;
+import com.naufalhisyam.model.DefaultNoteDAO;
+import com.naufalhisyam.model.Note;
 import com.google.inject.Inject;
 import org.json.JSONObject;
 

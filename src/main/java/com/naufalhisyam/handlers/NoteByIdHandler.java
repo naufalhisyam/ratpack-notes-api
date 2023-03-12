@@ -1,6 +1,6 @@
-package com.example.handlers;
+package com.naufalhisyam.handlers;
 
-import com.example.services.DefaultNoteService;
+import com.naufalhisyam.services.DefaultNoteService;
 import com.google.inject.Inject;
 import org.json.JSONObject;
 import ratpack.core.handling.Context;

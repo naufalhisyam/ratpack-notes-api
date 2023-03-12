@@ -1,15 +1,15 @@
-package com.example;
+package com.naufalhisyam;
 
-import com.example.handlers.CORSHandler;
-import com.example.handlers.LoggingHandler;
-import com.example.handlers.NoteByIdHandler;
-import com.example.handlers.NoteHandler;
-import com.example.model.DefaultNoteDAO;
-import com.example.model.NoteDAO;
-import com.example.services.NoteService;
+import com.naufalhisyam.handlers.CORSHandler;
+import com.naufalhisyam.handlers.LoggingHandler;
+import com.naufalhisyam.handlers.NoteByIdHandler;
+import com.naufalhisyam.handlers.NoteHandler;
+import com.naufalhisyam.model.DefaultNoteDAO;
+import com.naufalhisyam.model.NoteDAO;
+import com.naufalhisyam.services.NoteService;
 import com.google.inject.AbstractModule;
 import com.google.inject.Scopes;
-import com.example.services.DefaultNoteService;
+import com.naufalhisyam.services.DefaultNoteService;
 import com.google.inject.multibindings.Multibinder;
 import ratpack.core.handling.HandlerDecorator;
 

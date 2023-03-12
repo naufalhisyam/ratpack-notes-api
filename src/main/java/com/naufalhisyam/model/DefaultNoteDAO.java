@@ -1,6 +1,6 @@
-package com.example.model;
+package com.naufalhisyam.model;
 
-import com.example.utils.HibernateUtility;
+import com.naufalhisyam.utils.HibernateUtility;
 import com.google.inject.Inject;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
