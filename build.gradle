@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id("io.ratpack.ratpack-java") version "2.0.0-rc-1"
+    id("org.hibernate.orm") version "6.2.0.CR3"
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.json', name: 'json', version: '20230227'
+    implementation group: 'io.ratpack', name: 'ratpack-guice', version: '2.0.0-rc-1'
+    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.36'
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    implementation group: 'org.postgresql', name: 'postgresql', version: '42.5.4'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+mainClassName = "com.example.Main"
