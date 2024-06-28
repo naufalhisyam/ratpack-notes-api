@@ -1,2 +1,2 @@
 # ratpack-notes-api
-Simple REST API with Ratpack Java
+Simple REST API with Ratpack framework (Java)
